@@ -4,7 +4,7 @@ import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 
 // core version + navigation, pagination modules:
-import SwiperCore, { Navigation, Pagination } from 'swiper/modules';
+import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 
 // configure Swiper to use modules
 SwiperCore.use([Navigation, Pagination]);
